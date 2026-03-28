@@ -1,0 +1,12 @@
+# Pin versions for reproducible builds; upgrade intentionally.
+Django>=4.2,<5
+djangorestframework>=3.14
+djangorestframework-simplejwt>=5.3
+psycopg2-binary>=2.9
+celery[redis]>=5.3
+redis>=5.0
+stripe>=10.0
+django-cors-headers>=4.3
+gunicorn>=22.0
+pytest>=8.0
+pytest-django>=4.8
